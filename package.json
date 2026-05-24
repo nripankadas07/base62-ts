@@ -4,13 +4,28 @@
   "description": "Zero-dependency Base62 encoder/decoder for non-negative integers and byte arrays with custom-alphabet support",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "jest --verbose",
-    "test:coverage": "jest --coverage --verbose"
+    "test:coverage": "jest --coverage --verbose",
+    "typecheck": "tsc --noEmit"
   },
-  "keywords": ["base62","base-62","encoder","decoder","shortid","short-id","short-url","bigint","bytes","typescript","zero-dependency"],
+  "keywords": [
+    "base62",
+    "base-62",
+    "encoder",
+    "decoder",
+    "shortid",
+    "short-id",
+    "short-url",
+    "bigint",
+    "bytes",
+    "typescript",
+    "zero-dependency"
+  ],
   "author": "Nripanka Das <nripankadas@gmail.com>",
   "license": "MIT",
   "repository": {
